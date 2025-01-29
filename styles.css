@@ -120,18 +120,15 @@ p {
   height: 24px;
 }
 @media (max-width: 768px) {
-  main {
+  .higher-content {
     flex-direction: column;
     text-align: center;
   }
   .register-contact {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .content p {
-    margin-bottom: 0;
+    justify-content: space-between;
+    flex-direction: row-reverse;
   }
   .image-container {
     margin-bottom: 2rem;
